@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Employee Manager</title>
+</head>
+
+<body>
+  <h1>Employee Manager</h1>
+  <nav>
+    <button class="command" id="print">Print</button>
+    <button class="command" id="verify" onclick='showVerify()'>Verify</button>
+    <button class="command" id="lookup" onclick='showLookup()'>Lookup</button>
+    <button class="command" id="contains" onclick='showContains()'>Contains</button>
+    <button class="command" id="update" onclick='showUpdate()'>Update</button>
+    <button class="command" id="add" onclick='showAdd()'>Add</button>
+    <button class="command" id="delete" onclick='showDelete()'>Delete</button>
+  </nav>
+  <div id="content"></div>
+  <form id="ver">
+    <input type="text" id="search-input" placeholder="Enter Employee" autocomplete="off" />
+    <button type='button' id="verButton">Verify</button>
+  </form>
+  <form id="look">
+    <input type="text" id="search-input2" placeholder="Enter Employee" autocomplete="off" />
+    <button type='button' id="lookButton">Lookup</button>
+  </form>
+  <form id="cont">
+    <input type="text" id="search-input3" placeholder="Enter Employee" autocomplete="off" />
+    <button type='button' id="contButton">Contains</button>
+  </form>
+  <form id="up">
+    <div><input type="text" id="search-input4" placeholder="Enter Employee Name" autocomplete="off" /></div>
+    <div><input type="text" id="search-input5" placeholder="Enter Office Number" autocomplete="off" /></div>
+    <div><input type="text" id="search-input6" placeholder="Enter Phone Number" autocomplete="off" /></div>
+    <button type='button' id="upButton">Update</button>
+  </form>
+  <form id="ad">
+    <div><input type="text" id="search-input7" placeholder="Enter Employee Name" autocomplete="off" /></div>
+    <div><input type="text" id="search-input8" placeholder="Enter Office Number" autocomplete="off" /></div>
+    <div><input type="text" id="search-input9" placeholder="Enter Phone Number" autocomplete="off" /></div>
+    <button type='button' id="addButton">Add</button>
+  </form>
+  <form id="del">
+    <input type="text" id="search-input10" placeholder="Enter Employee" autocomplete="off" />
+    <button type='button' id="delButton">Delete</button>
+  </form>
+  <script src="render.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

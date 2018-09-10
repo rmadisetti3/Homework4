@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+h1 {
+  font-size: 45px;
+  text-align: right;
+  background-color: blue;
+  color: white;
+  padding: 18px;
+  position: relative;
+  bottom: 30px;
+  left: 7px;
+}
+nav {
+  background-color: grey;
+  color: white;
+  height: 100%;
+  width: 65px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 240px;
+}
+.command {
+  padding: 5px;
+  margin: 5px;
+}
+#content {
+  position: relative;
+  left: 100px;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 0px;
+  line-height: 25px;
+}
+input {
+  position: relative;
+  left: 350px;
+  width: 500px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 100px;
+  border-color: black;
+}
+#verButton {
+  position: relative;
+  left: 350px;
+  color: blue;
+}
+
+#lookButton {
+  position: relative;
+  left: 350px;
+  color: blue;
+}
+#contButton {
+  position: relative;
+  left: 350px;
+  color: blue;
+}
+
+#upButton {
+  position: relative;
+  left: 575px;
+  color: blue;
+}
+#ad {
+  position: relative;
+  bottom: 300px;
+}
+#addButton {
+  position: relative;
+  left: 575px;
+}
+#del {
+  position: relative;
+  bottom: 400px;
+}
+#delButton {
+  position: relative;
+  left: 350px;
+  color: blue;
+}
+form {
+  position: relative;
+  left: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  visibility: hidden;
+}
